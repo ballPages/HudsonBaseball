@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 10px 20px;
+  color:white;
+}
+
+.container{
+  margin:0 auto;
+  max-width: 1200px;
+}
+
+.backgroundimage{
+  background-image: url(baseball.jpg);
+  background-position: bottom center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.personalpic{
+  width: 50%;
+  max-width:400px;
+  margin: 0 auto 20px; 
+}
+
+.personalpic img{
+  max-width:100%;
+}
+
+.stattable {
+  background: rgba(54, 54, 54, 0.6);
+  border: 1px solid #ddd;
+}
+
+.stattable table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  overflow-x:auto;
+}
+
+.biotable span{
+  font-weight: 700;
+}
+
+.biotable{
+  border: 1px solid #ddd;
+}
+ul{
+  list-style: none;
+  font-size: 18px;
+}
+
+li span{
+  color:black;
+}
+
+.cliptable{
+  background: rgba(54, 54, 54, 0.6);
+  flex-grow:1;
+}
+
+.biotable{
+  background: rgba(54, 54, 54, 0.6);
+  flex-grow:1;
+}
+
+.picandvid {
+ margin-bottom: 20px;
+ /* display: flex; */
+}
+
+a{
+  color:white;
+}
+
+.redtext{
+  color: red;
+}
+
+h1{
+  color: black;
+  text-align: center;
+}
+
+h2{
+  color: black;
+  text-align: center;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+table th{
+  font-weight: 700;
+  color:black;
+}
+
+.opponentname{
+  font-weight: 700;
+  color:black;
+}
+
+.yellow{
+  color:yellow;
+}
+
+.white{
+  color:white;
+}
